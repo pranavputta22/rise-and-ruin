@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rise &amp; Ruin</title>
+<meta name="description" content="Documentaries about how companies rise and fall, produced with an AI-assisted research and production pipeline.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e1016;
+    --panel: #161a22;
+    --line: #262b36;
+    --text: #f2f3f5;
+    --muted: #9aa0ac;
+    --accent: #ffc400;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 28px 0; }
+  .logo { font-weight: 800; letter-spacing: 0.04em; font-size: 18px; }
+  .logo span { color: var(--accent); }
+  .hero { padding: 96px 0 72px; }
+  .eyebrow {
+    color: var(--accent); font-weight: 600; font-size: 14px;
+    letter-spacing: 0.12em; text-transform: uppercase;
+  }
+  h1 {
+    font-size: clamp(36px, 6vw, 64px); line-height: 1.08;
+    font-weight: 800; margin: 16px 0 24px; max-width: 14ch;
+  }
+  .lede { color: var(--muted); font-size: 19px; max-width: 58ch; }
+  .rule { width: 72px; height: 4px; background: var(--accent); margin: 40px 0 0; }
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 26px; font-weight: 800; margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+  .card h3 { font-size: 17px; margin-bottom: 8px; }
+  .card p { color: var(--muted); font-size: 15px; }
+  .num { color: var(--accent); font-weight: 800; font-size: 14px; margin-bottom: 10px; }
+  .topics li { list-style: none; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
+  .topics li:last-child { border-bottom: 0; }
+  .topics span { color: var(--muted); font-size: 14px; display: block; }
+  .status {
+    display: inline-block; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 999px; padding: 8px 16px; font-size: 14px; color: var(--muted);
+  }
+  .status b { color: var(--accent); }
+  footer { padding: 40px 0 56px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header><div class="logo">RISE <span>&amp;</span> RUIN</div></header>
+
+    <div class="hero">
+      <div class="eyebrow">Business history, told well</div>
+      <h1>How companies rise. Why they fall.</h1>
+      <p class="lede">Rise &amp; Ruin is a documentary series about the decisions behind the biggest business successes and failures. Every episode is researched from primary sources, written around a clear argument, and produced with an AI-assisted pipeline.</p>
+      <div class="rule"></div>
+    </div>
+
+    <section>
+      <h2>How episodes are made</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="num">01</div>
+          <h3>Research</h3>
+          <p>Sources such as filings, interviews and reporting are gathered and organized for each story.</p>
+        </div>
+        <div class="card">
+          <div class="num">02</div>
+          <h3>Script</h3>
+          <p>AI drafts the script from those sources. A human editor sets the angle and checks every fact.</p>
+        </div>
+        <div class="card">
+          <div class="num">03</div>
+          <h3>Production</h3>
+          <p>Narration, illustrations, charts and timelines are generated and assembled into a finished episode.</p>
+        </div>
+        <div class="card">
+          <div class="num">04</div>
+          <h3>Publishing</h3>
+          <p>Full episodes go to YouTube, with short cuts for TikTok and Instagram Reels.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>The kinds of stories we cover</h2>
+      <ul class="topics">
+        <li>Spectacular collapses<span>Billion-dollar startups that burned out fast, and what actually went wrong.</span></li>
+        <li>Products that lost their market<span>Category leaders that missed the next shift.</span></li>
+        <li>How industries got built<span>The bets and accidents behind the companies everyone uses.</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <span class="status"><b>&#9679;</b> In development. First episodes coming soon.</span>
+    </section>
+
+    <footer>&copy; 2026 Rise &amp; Ruin</footer>
+  </div>
+</body>
+</html>
